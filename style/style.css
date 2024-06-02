@@ -160,3 +160,21 @@ audio {
     width: 100%;
     border-radius: 5px;
 }
+
+.photo-gallery h2 {
+    color: #b71c1c;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 10px;
+
+}
+
+.photo-gallery {
+    max-width: max-content;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
