@@ -1,6 +1,6 @@
 body {
-    background-color: #1a1a1a;
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/166/799/741/band-music-guns-n-roses-wallpaper-preview.jpg');
+    background-color: #727272;
+    background-image: url('https://hypeabis.id/assets/content/20220811213703_GunsnRoses-Jakarta3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -25,9 +25,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 label {
-    color: #000000;
-    text-shadow: 10px 10px 20px rgb(255, 147, 147);
+    color:  #ffffff;
+    text-shadow: 10px 10px 20px rgb(255, 0, 0);
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 input[type="text"],
