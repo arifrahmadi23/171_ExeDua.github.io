@@ -178,3 +178,13 @@ audio {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.btn-primary {
+    background-color: #ff4500; /* Warna latar belakang */
+    border-color: #ff4500; /* Warna border */
+}
+
+.btn-primary:hover {
+    background-color: #dc3545; /* Warna latar belakang saat hover */
+    border-color: #dc3545; /* Warna border saat hover */
+}
