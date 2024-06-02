@@ -188,3 +188,10 @@ audio {
     background-color: #dc3545; /* Warna latar belakang saat hover */
     border-color: #dc3545; /* Warna border saat hover */
 }
+
+.card-img-top {
+    width: 800px;
+    height: 500px;
+  
+}
+
