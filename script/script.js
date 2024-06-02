@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
             message += interest.value + ", ";
         });
         message = message.slice(0, -2) + "\n" + // Untuk menghapus koma terakhir
-                  "Judul Musik Favorit: " + music + "\n" +
                   "Tanggal Lahir: " + date + "\n" +
                   "Komentar: " + comments;
         
