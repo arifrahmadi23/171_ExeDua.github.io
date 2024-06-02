@@ -70,3 +70,28 @@ input[type="radio"] {
     width: 75%;
     margin-top: 6px;
 }
+
+/* CSS untuk tombol */
+button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* CSS untuk tombol Kembali */
+#back {
+    background-color: #dc3545; /* Warna merah */
+    color: #fff; /* Warna teks putih */
+}
+
+/* CSS untuk tombol Submit */
+#submitButton {
+    background-color: #007bff; /* Warna biru */
+    color: #fff; /* Warna teks putih */
+}
+
