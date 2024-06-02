@@ -1,0 +1,45 @@
+body {
+    background-color: #1a1a1a;
+    background-image: url('https://images8.alphacoders.com/611/611114.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Impact', sans-serif;
+    color: #b71c1c;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #b71c1c;
+}
+
+button, .btn {
+    background-color: #b71c1c;
+    color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #7f0000;
+}

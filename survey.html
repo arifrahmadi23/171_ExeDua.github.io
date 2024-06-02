@@ -38,12 +38,39 @@
                     </select>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-25">
-                    <label for="age">Umur</label>
+                    <label>Jenis Konten Favorit</label>
                 </div>
                 <div class="col-75">
-                    <input type="number" id="age" name="age" placeholder="Umur">
+                    <label><input type="radio" name="content" value="music"> Musik</label>
+                    <label><input type="radio" name="content" value="videos"> Video</label>
+                    <label><input type="radio" name="content" value="photos"> Foto</label>
+                    <label><input type="radio" name="content" value="articles"> Artikel</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="interests">Minat</label>
+                </div>
+                <div class="col-75">
+                    <input type="checkbox" id="music" name="interests" value="music">
+                    <label for="music">Musik</label>
+                    <input type="checkbox" id="concerts" name="interests" value="concerts">
+                    <label for="concerts">Konser</label>
+                    <input type="checkbox" id="merchandise" name="interests" value="merchandise">
+                    <label for="merchandise">Merchandise</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="music">Judul Musik Favorit</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="music" name="music" placeholder="Judul Favorit">
                 </div>
             </div>
             <div class="row">
