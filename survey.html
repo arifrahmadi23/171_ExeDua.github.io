@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        select,
+        textarea,
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Guns N' Roses Fansite Form</h2>
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Nama</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="gender">Jenis Kelamin</label>
+                </div>
+                <div class="col-75">
+                    <select id="gender" name="gender">
+                        <option value="male">Laki - Laki</option>
+                        <option value="female">Perempuan</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="age">Umur</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="age" name="age" placeholder="Your age..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="date">Tanggal Lahir</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" id="date" name="date">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="comments">Komentar</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="comments" name="comments" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+            
+            <div class="row">
+               
